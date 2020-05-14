@@ -3,41 +3,67 @@
 <head>
 	<title>My First web Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-		<link rel="stylesheet/css" href="stylesheet.css">
-		<link rel="stylesheet" type="text/css" href="C:\Users\TehmiM\project0\bootstrap\bootstrap-4.4.1-dist\css">
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet/css" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
 
+
+.forms{
+
+
+	background-color: gray;
+		width: 40%;
+		height: 40%;
+		padding-left: 30px;
+		padding-top: 30px;
+
+
+}
+
+</style>
 
 </head>
 <body>
-	<header>
-		
-		
-	 <h2 class="header">Welcome to IUB</h2>
-	</header>
-	<form>
-		<div class="form-group">
+	<div class=container>
+		<div>
+			<nav class="navbar navbar-light bg-light">
+			  <a class="navbar-brand" href="https://www.iub.edu.pk/">
+			    <img src="C:\Users\TehmiM\Desktop\download.png" width="50" height="50" alt="" loading="lazy">
+					The Islamia University of Bahawalur
+			  </a>
+			</nav>
+</div>
+<grid>
+	<form class="forms">
+<label> Full Name: </label><br>
 		<input type="Text" name="full name" placeholder="Full name" required><br><br>
+		<label> Age: </label><br>
 		<input type="number" name="age" placeholder="Age" required><br><br>
+		<label>Password: </label><br>
 		<input type="password" name="password" placeholder="password" required><br><br>
+		<label>Confirm password</label><br>
 		<input type="password" name="password" placeholder="Confirm password" required><br><br>
+		<label>Contact: </label><br>
+		<input type="number" name="" placeholder="contact#"><br><br>
+		<label>Gender: </label><br>
 			<input type="radio" name="name1">Female
 					  <input type="radio" name="name1">male
 
  					  <br>
-					  <input type="number" name="" placeholder="contact#"><br>
+
 		<input type="checkbox" name="checkbox">remember me?<br>
 
 			<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iub.edu.pk%2F&psig=AOvVaw0QqPVI_EArKr5yWvr4_W_T&ust=1589056654501000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjKkriPpekCFQAAAAAdAAAAABAD"> click here to see IUB</a>
 
-		
-	</form>
-	<a href="2ndwebpage.html">Register</a><br>
-	<a href="second.html">Log In</a>
-
-	</div>
-	
+<br>
+<ul>
+	<li>
+<a href="mweb.html" class=register>Register</a></li>
+<li> <a href="second.html" class=register>Log In</a></li>
+<button type="button" class="btn btn-success">Register</button>
+</form>
+<grid>
+</div>
 
 </body>
 </html>
